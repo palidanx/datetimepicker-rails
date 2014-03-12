@@ -6,14 +6,14 @@ jQuery( document ).ready(function( $ ) {
 
 jQuery( document ).ready(function( $ ) {
     $('.datetimepicker').datetimepicker({
-        pickSeconds: false
+        pickSeconds: false,
+        pick12HourFormat: true
     });
 });
 
 jQuery( document ).ready(function( $ ) {
     $('.timepicker').datetimepicker({
         pickDate: false,
-        pickSeconds: false,
-        pick12HourFormat: true
+        pickSeconds: false
     });
 });
