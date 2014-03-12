@@ -1,18 +1,19 @@
-$(function() {
+jQuery( document ).ready(function( $ ) {
     $('.datepicker').datetimepicker({
         pickTime: false
     });
 });
 
-$(function() {
+jQuery( document ).ready(function( $ ) {
     $('.datetimepicker').datetimepicker({
         pickSeconds: false
     });
 });
 
-$(function() {
+jQuery( document ).ready(function( $ ) {
     $('.timepicker').datetimepicker({
         pickDate: false,
-        pickSeconds: false
+        pickSeconds: false,
+        pick12HourFormat: true
     });
 });
